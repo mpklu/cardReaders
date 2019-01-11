@@ -1,0 +1,16 @@
+PODS:
+  - PayCardsRecognizer (1.1.4)
+
+DEPENDENCIES:
+  - PayCardsRecognizer
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - PayCardsRecognizer
+
+SPEC CHECKSUMS:
+  PayCardsRecognizer: b939eec21c6890d57c9f22cb8856517922b097a2
+
+PODFILE CHECKSUM: 4bff6679071aafd7ba03eeea5b0de17241a0e10c
+
+COCOAPODS: 1.5.3

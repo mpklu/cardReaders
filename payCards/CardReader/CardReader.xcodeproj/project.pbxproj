@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CAE7EF3B1FD859155568696 /* Pods_CardReaderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B424ECACA8B4FDD37FBFB654 /* Pods_CardReaderTests.framework */; };
+		7894828D21E295E900D354F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7894828C21E295E900D354F9 /* AppDelegate.swift */; };
+		7894828F21E295E900D354F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7894828E21E295E900D354F9 /* ViewController.swift */; };
+		7894829221E295E900D354F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7894829021E295E900D354F9 /* Main.storyboard */; };
+		7894829421E295EA00D354F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7894829321E295EA00D354F9 /* Assets.xcassets */; };
+		7894829721E295EA00D354F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7894829521E295EA00D354F9 /* LaunchScreen.storyboard */; };
+		789482A221E295EA00D354F9 /* CardReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789482A121E295EA00D354F9 /* CardReaderTests.swift */; };
+		7BBBCEC94F83AC65852DE64A /* Pods_CardReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD2313269D4923EA4FB3E4F7 /* Pods_CardReader.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7894829E21E295EA00D354F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7894828121E295E900D354F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7894828821E295E900D354F9;
+			remoteInfo = CardReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F1ED6E89C2ED0C69467C4DE /* Pods-CardReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardReader.release.xcconfig"; path = "Pods/Target Support Files/Pods-CardReader/Pods-CardReader.release.xcconfig"; sourceTree = "<group>"; };
+		7894828921E295E900D354F9 /* CardReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7894828C21E295E900D354F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7894828E21E295E900D354F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7894829121E295E900D354F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7894829321E295EA00D354F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7894829621E295EA00D354F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7894829821E295EA00D354F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7894829D21E295EA00D354F9 /* CardReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		789482A121E295EA00D354F9 /* CardReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardReaderTests.swift; sourceTree = "<group>"; };
+		789482A321E295EA00D354F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A763EDC937DC31AC09753652 /* Pods-CardReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardReader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CardReader/Pods-CardReader.debug.xcconfig"; sourceTree = "<group>"; };
+		B424ECACA8B4FDD37FBFB654 /* Pods_CardReaderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CardReaderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD2313269D4923EA4FB3E4F7 /* Pods_CardReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CardReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB6D2597D9EC59B99078534D /* Pods-CardReaderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardReaderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CardReaderTests/Pods-CardReaderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F967CFCC4F8A3026000854BA /* Pods-CardReaderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardReaderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CardReaderTests/Pods-CardReaderTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7894828621E295E900D354F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BBBCEC94F83AC65852DE64A /* Pods_CardReader.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7894829A21E295EA00D354F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CAE7EF3B1FD859155568696 /* Pods_CardReaderTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40E42C6DF247981D855AF73E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A763EDC937DC31AC09753652 /* Pods-CardReader.debug.xcconfig */,
+				2F1ED6E89C2ED0C69467C4DE /* Pods-CardReader.release.xcconfig */,
+				DB6D2597D9EC59B99078534D /* Pods-CardReaderTests.debug.xcconfig */,
+				F967CFCC4F8A3026000854BA /* Pods-CardReaderTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7894828021E295E900D354F9 = {
+			isa = PBXGroup;
+			children = (
+				7894828B21E295E900D354F9 /* CardReader */,
+				789482A021E295EA00D354F9 /* CardReaderTests */,
+				7894828A21E295E900D354F9 /* Products */,
+				40E42C6DF247981D855AF73E /* Pods */,
+				8516639CE788D408AA7ACF43 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7894828A21E295E900D354F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7894828921E295E900D354F9 /* CardReader.app */,
+				7894829D21E295EA00D354F9 /* CardReaderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7894828B21E295E900D354F9 /* CardReader */ = {
+			isa = PBXGroup;
+			children = (
+				7894828C21E295E900D354F9 /* AppDelegate.swift */,
+				7894828E21E295E900D354F9 /* ViewController.swift */,
+				7894829021E295E900D354F9 /* Main.storyboard */,
+				7894829321E295EA00D354F9 /* Assets.xcassets */,
+				7894829521E295EA00D354F9 /* LaunchScreen.storyboard */,
+				7894829821E295EA00D354F9 /* Info.plist */,
+			);
+			path = CardReader;
+			sourceTree = "<group>";
+		};
+		789482A021E295EA00D354F9 /* CardReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				789482A121E295EA00D354F9 /* CardReaderTests.swift */,
+				789482A321E295EA00D354F9 /* Info.plist */,
+			);
+			path = CardReaderTests;
+			sourceTree = "<group>";
+		};
+		8516639CE788D408AA7ACF43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD2313269D4923EA4FB3E4F7 /* Pods_CardReader.framework */,
+				B424ECACA8B4FDD37FBFB654 /* Pods_CardReaderTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7894828821E295E900D354F9 /* CardReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 789482A621E295EA00D354F9 /* Build configuration list for PBXNativeTarget "CardReader" */;
+			buildPhases = (
+				AEAA8652D008DF5B669E8765 /* [CP] Check Pods Manifest.lock */,
+				7894828521E295E900D354F9 /* Sources */,
+				7894828621E295E900D354F9 /* Frameworks */,
+				7894828721E295E900D354F9 /* Resources */,
+				E5B9BC58819F2DE3252E9AC5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CardReader;
+			productName = CardReader;
+			productReference = 7894828921E295E900D354F9 /* CardReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7894829C21E295EA00D354F9 /* CardReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 789482A921E295EA00D354F9 /* Build configuration list for PBXNativeTarget "CardReaderTests" */;
+			buildPhases = (
+				D4EDAA9E61EC28821D11A89A /* [CP] Check Pods Manifest.lock */,
+				7894829921E295EA00D354F9 /* Sources */,
+				7894829A21E295EA00D354F9 /* Frameworks */,
+				7894829B21E295EA00D354F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7894829F21E295EA00D354F9 /* PBXTargetDependency */,
+			);
+			name = CardReaderTests;
+			productName = CardReaderTests;
+			productReference = 7894829D21E295EA00D354F9 /* CardReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7894828121E295E900D354F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Kun Lu";
+				TargetAttributes = {
+					7894828821E295E900D354F9 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					7894829C21E295EA00D354F9 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 7894828821E295E900D354F9;
+					};
+				};
+			};
+			buildConfigurationList = 7894828421E295E900D354F9 /* Build configuration list for PBXProject "CardReader" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7894828021E295E900D354F9;
+			productRefGroup = 7894828A21E295E900D354F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7894828821E295E900D354F9 /* CardReader */,
+				7894829C21E295EA00D354F9 /* CardReaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7894828721E295E900D354F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7894829721E295EA00D354F9 /* LaunchScreen.storyboard in Resources */,
+				7894829421E295EA00D354F9 /* Assets.xcassets in Resources */,
+				7894829221E295E900D354F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7894829B21E295EA00D354F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AEAA8652D008DF5B669E8765 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CardReader-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4EDAA9E61EC28821D11A89A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CardReaderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5B9BC58819F2DE3252E9AC5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CardReader/Pods-CardReader-frameworks.sh",
+				"${PODS_ROOT}/PayCardsRecognizer/Source/PayCardsRecognizer.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PayCardsRecognizer.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CardReader/Pods-CardReader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7894828521E295E900D354F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7894828F21E295E900D354F9 /* ViewController.swift in Sources */,
+				7894828D21E295E900D354F9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7894829921E295EA00D354F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				789482A221E295EA00D354F9 /* CardReaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7894829F21E295EA00D354F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7894828821E295E900D354F9 /* CardReader */;
+			targetProxy = 7894829E21E295EA00D354F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7894829021E295E900D354F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7894829121E295E900D354F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7894829521E295EA00D354F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7894829621E295EA00D354F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		789482A421E295EA00D354F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		789482A521E295EA00D354F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		789482A721E295EA00D354F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A763EDC937DC31AC09753652 /* Pods-CardReader.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YEDZDJ5SPW;
+				INFOPLIST_FILE = CardReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kunlu.CardReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		789482A821E295EA00D354F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F1ED6E89C2ED0C69467C4DE /* Pods-CardReader.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YEDZDJ5SPW;
+				INFOPLIST_FILE = CardReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kunlu.CardReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		789482AA21E295EA00D354F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB6D2597D9EC59B99078534D /* Pods-CardReaderTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YEDZDJ5SPW;
+				INFOPLIST_FILE = CardReaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kunlu.CardReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardReader.app/CardReader";
+			};
+			name = Debug;
+		};
+		789482AB21E295EA00D354F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F967CFCC4F8A3026000854BA /* Pods-CardReaderTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YEDZDJ5SPW;
+				INFOPLIST_FILE = CardReaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kunlu.CardReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardReader.app/CardReader";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7894828421E295E900D354F9 /* Build configuration list for PBXProject "CardReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				789482A421E295EA00D354F9 /* Debug */,
+				789482A521E295EA00D354F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		789482A621E295EA00D354F9 /* Build configuration list for PBXNativeTarget "CardReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				789482A721E295EA00D354F9 /* Debug */,
+				789482A821E295EA00D354F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		789482A921E295EA00D354F9 /* Build configuration list for PBXNativeTarget "CardReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				789482AA21E295EA00D354F9 /* Debug */,
+				789482AB21E295EA00D354F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7894828121E295E900D354F9 /* Project object */;
+}
